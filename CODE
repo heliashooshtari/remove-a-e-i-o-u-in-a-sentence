@@ -1,0 +1,6 @@
+A=input('enter your sentence: ').strip()
+B=['a','e','i','o','u']
+for i in B:
+    A=A.replace(i,'')
+    
+print(A)
